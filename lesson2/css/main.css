@@ -1,0 +1,30 @@
+.target {
+    background: #388d8d;
+    height: 200px;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+.container {
+    height: 200px;
+    width: 690px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.b {
+    background: #255050;
+    height: 80px;
+    width: 50px;
+    padding: 50px;
+    display: flex;
+    margin: 10px;
+}
+.c {
+    height: 400px;
+    margin: 10px auto;
+}
