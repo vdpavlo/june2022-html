@@ -12,7 +12,8 @@
     margin: 0 auto;
 }
 .fa-star {
-    font-size: 50px;
+    font-size: 70px;
+    margin: 0 auto;
 }
 .icon {
     display: flex;
@@ -21,7 +22,11 @@
 
 }
 .description {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    height: 20px;
+    margin: 20px;
 }
 .taitel > p {
     box-sizing: border-box;
