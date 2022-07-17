@@ -1,0 +1,54 @@
+.father {
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+
+}
+.header {
+    background: silver;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    width: 100px;
+    height: 40px;
+    background: dodgerblue;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.nav {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+.content {
+    background: dodgerblue;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.box-father{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 10px;
+
+}
+.footer {
+    background: silver;
+    height: 150px;
+}
