@@ -1,0 +1,77 @@
+.wrap{
+    width: 100%;
+    height: 700px;
+    /*border: 2px solid black;*/
+    margin: 8px;
+}
+.a{
+    width: 100%;
+    height: 150px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+
+}
+.father{
+    width: 100%;
+    height: 550px;
+    /*background: dodgerblue;*/
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.container{
+    width: 75%;
+    height: 320px;
+    /*background: #6ad56a;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 7px;
+}
+.b{
+    width: 100%;
+    height: 150px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.box{
+    width: 32%;
+    height: 150px;
+    background: silver;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f{
+    width: 30%;
+    height: 320px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+@media  screen and (max-width: 1000px) {
+    .father{
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .f{
+        width: 100%;
+    }
+}
